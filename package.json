@@ -1,0 +1,36 @@
+{
+  "name": "monorepo-scalpel",
+  "version": "0.1.0",
+  "description": "Extract packages with history-preserving plans — open-source toolkit by zAx4hub.",
+  "type": "module",
+  "author": "zAx4hub <zAx4hub@users.noreply.github.com>",
+  "license": "MIT",
+  "bin": {
+    "monorepo-scalpel": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "demo": "tsx src/cli.ts demo",
+    "start": "tsx src/cli.ts",
+    "lint": "tsc -p tsconfig.json --noEmit"
+  },
+  "keywords": [
+    "zax4hub",
+    "monorepo-scalpel",
+    "opensource"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zAx4hub/monorepo-scalpel"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3",
+    "vitest": "^2.1.8",
+    "tsx": "^4.19.2",
+    "@types/node": "^22.10.5"
+  },
+  "dependencies": {
+    "commander": "^12.1.0"
+  }
+}

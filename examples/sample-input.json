@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "text": "Extract packages with history-preserving plans"
+    },
+    {
+      "text": "zAx4hub fixture"
+    }
+  ],
+  "threshold": 0.25,
+  "baseline": "open source"
+}
